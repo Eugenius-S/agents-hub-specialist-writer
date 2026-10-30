@@ -1,0 +1,14 @@
+{
+  "name": "hub-specialist-writer",
+  "owner": {
+    "name": "Agents Hub specialists"
+  },
+  "plugins": [
+    {
+      "name": "writer",
+      "source": "./plugins/writer",
+      "description": "Skills of the hub's writer: rules for human-sounding text without signs of AI.",
+      "version": "0.1.10"
+    }
+  ]
+}

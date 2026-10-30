@@ -1,0 +1,46 @@
+{
+  "name": "writer",
+  "kind": "specialist",
+  "version": "0.1.10",
+  "hub": "^1",
+  "icon": "✍️",
+  "description": "Writer: any texts: posts, landing pages, emails, interface texts, descriptions; short, tight, punchy, human, no long dashes",
+  "why": "A ready writer instead of building your own: a method (inputs, product context, draft, self-check), rules for human-sounding text without signs of AI, a cycle \"the owner's verdict → a check → an edit\", check cases",
+  "agent": {
+    "cwd": "~/writer",
+    "tools": {
+      "need": [],
+      "optional": [
+        {
+          "id": "humanizer",
+          "why": "clean signs of AI out of a text"
+        },
+        {
+          "id": "ru-text",
+          "why": "editing of Russian texts"
+        },
+        {
+          "id": "ux-writing",
+          "why": "interface texts: buttons, errors, empty states"
+        },
+        {
+          "id": "deep-research",
+          "why": "a long research on an explicit request"
+        },
+        {
+          "id": "parallel-web-search",
+          "why": "checking facts against a source"
+        },
+        {
+          "id": "buffer",
+          "why": "social network posts through Buffer, only with the owner's \"yes\""
+        },
+        {
+          "id": "figma",
+          "why": "texts right in the layout"
+        }
+      ]
+    },
+    "cases": "evals/cases.md"
+  }
+}
